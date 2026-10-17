@@ -77,36 +77,6 @@ npm run build
 # Preview production build locally
 npm run preview
 ```
-
----
-
-## 🚀 Deployment Steps (Vercel)
-
-This application is 100% ready for one-click deployment on **Vercel**:
-
-### Option 1: Via Vercel Web Dashboard (Recommended)
-1. Push this project to your GitHub account (`https://github.com/Ratnadeep-01/portfolio`).
-2. Go to [Vercel](https://vercel.com) and log in with your GitHub account.
-3. Click **"Add New"** > **"Project"**.
-4. Select the `portfolio` repository from your list.
-5. In **Build & Development Settings**:
-   - Framework Preset: `Vite`
-   - Build Command: `npm run build`
-   - Output Directory: `dist`
-   - Install Command: `npm install`
-6. Click **Deploy**. Your site will be live on a `*.vercel.app` domain with worldwide Edge CDN and automatic SSL!
-
-### Option 2: Via Vercel CLI
-```bash
-# Install Vercel CLI globally
-npm i -g vercel
-
-# Deploy directly from your terminal
-vercel
-```
-
----
-
 ## 👤 Author Contact
 
 - **Ratnadeep Kumar**
